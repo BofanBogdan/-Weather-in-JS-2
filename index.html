@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather APP Bofan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="searchBox">
+        <i class="faSolid faLocationDot"></i>
+        <img src="./Img scpt/cloudy.svg" alt="" />
+        <input type="text" placeholder="Enter your Location" />
+        <button class="faSolid faMagnifyingGlass">
+          <img src="Img scpt/couldsearch.svg" />
+        </button>
+      </div>
+      <div class="notFound">
+        <img src="./Img scpt/404.gif" alt="invalidLocaton" />
+        <p>ERROR! This location is invalid</p>
+      </div>
+
+      <div class="weatherBox">
+        <img src="./Img scpt/thermometer-glass.svg" alt="" />
+        <p class="temperature"></p>
+        <p class="description"></p>
+      </div>
+      <div class="weatherDetails">
+        <div class="humidity">
+          <i class="faSolid faWater"></i>
+          <div class="text">
+            <span></span>
+            <img src="./Img scpt/humidity (1).svg" />
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="wind">
+          <i class="faSolid faWind"></i>
+          <div class="text">
+            <span></span>
+            <img src="./Img scpt/wind (1).svg" />
+            <p>Wind Speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
